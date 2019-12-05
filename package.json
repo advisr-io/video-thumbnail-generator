@@ -43,7 +43,6 @@
     "sinon-chai": "2.9.0"
   },
   "dependencies": {
-    "bluebird": "3.7.2",
     "del": "5.1.0",
     "fluent-ffmpeg": "2.1.2",
     "lodash": "^4.17.15",

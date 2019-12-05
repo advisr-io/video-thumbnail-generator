@@ -1,5 +1,4 @@
 import FfmpegCommand from 'fluent-ffmpeg';
-import Promise from 'bluebird';
 import _ from 'lodash';
 import del from 'del';
 
