@@ -21,6 +21,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-register": "6.24.0",
     "chai": "3.5.0",
+    "eslint": "^3.19.0",
     "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "3.0.2",
