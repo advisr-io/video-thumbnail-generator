@@ -2,7 +2,6 @@
 
 import { assert, expect } from 'chai';
 import sinon from 'sinon';
-import Promise from 'bluebird';
 import ThumbanilGenerator from '../src/index.js';
 
 describe('ThumbanilGenerator:', function() {
