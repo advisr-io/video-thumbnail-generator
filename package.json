@@ -12,8 +12,7 @@
     "compile": "./node_modules/.bin/gulp build",
     "clean": "./node_modules/.bin/gulp clean",
     "watch": "./node_modules/.bin/gulp watch",
-    "test": "./node_modules/.bin/gulp test",
-    "prepare": "./node_modules/.bin/gulp prepare"
+    "test": "./node_modules/.bin/gulp test"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.1",
