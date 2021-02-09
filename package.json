@@ -45,5 +45,8 @@
     "del": "^5.1.0",
     "fluent-ffmpeg": "^2.1.2",
     "lodash": "^4.17.15"
+  },
+  "resolutions": {
+    "lodash.template": "4.5.0"
   }
 }
