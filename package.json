@@ -47,6 +47,7 @@
     "lodash": "^4.17.15"
   },
   "resolutions": {
-    "lodash.template": "4.5.0"
+    "lodash.template": "4.5.0",
+    "mkdirp": "0.5.5"
   }
 }
