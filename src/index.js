@@ -6,7 +6,6 @@ import del from 'del';
  * @class ThumbnailGenerator
  */
 export default class ThumbnailGenerator {
-
   /**
    * @constructor
    *
@@ -69,7 +68,7 @@ export default class ThumbnailGenerator {
       count: 1,
       timestamps: [`${percent}%`],
     }))
-      .then(result => result.pop());
+      .then((result) => result.pop());
   }
 
   /**
@@ -91,7 +90,7 @@ export default class ThumbnailGenerator {
     const callback = cb || opts;
 
     this.generateOneByPercent(percent, opts)
-      .then(result => callback(null, result))
+      .then((result) => callback(null, result))
       .catch(callback);
   }
 
@@ -162,7 +161,7 @@ export default class ThumbnailGenerator {
     const callback = cb || opts;
 
     this.generate(opts)
-      .then(result => callback(null, result))
+      .then((result) => callback(null, result))
       .catch(callback);
   }
 
@@ -216,6 +215,7 @@ export default class ThumbnailGenerator {
         .run();
     });
   }
+
   /**
    * Method to generate the palette from a video (required for creating gifs)
    *
@@ -235,7 +235,7 @@ export default class ThumbnailGenerator {
     const callback = cb || opts;
 
     this.generatePalette(opts)
-      .then(result => callback(null, result))
+      .then((result) => callback(null, result))
       .catch(callback);
   }
 
@@ -320,7 +320,7 @@ export default class ThumbnailGenerator {
     const callback = cb || opts;
 
     this.generateGif(opts)
-      .then(result => callback(null, result))
+      .then((result) => callback(null, result))
       .catch(callback);
   }
 }
